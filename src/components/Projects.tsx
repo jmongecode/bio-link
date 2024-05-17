@@ -1,7 +1,6 @@
 import { IconButton } from "./ui";
 import { cn } from "./ui/utils.ts";
 import { Lucide } from "./icons";
-import { IconImage } from './icons/lucide';
 
 // TODO : update projects
 const projects = [
