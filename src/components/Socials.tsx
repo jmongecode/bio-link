@@ -4,17 +4,17 @@ import { Simple } from "./icons";
 // TODO : update socials
 const socials = [
   {
-    href: "https://github.com",
-    name: "GitHub",
-    icon: Simple.IconGitHub,
+    href: "https://www.instagram.com/jesusmonge.l",
+    name: "Instagram",
+    icon: Simple.IconInstagram,
   },
   {
-    href: "https://x.com",
-    name: "X",
-    icon: Simple.IconX,
+    href: "https://www.tiktok.com/@jesusmongeoficial",
+    name: "TikTok",
+    icon: Simple.IconTikTok,
   },
   {
-    href: "https://www.youtube.com",
+    href: "https://www.youtube.com/@JesusMongeL",
     name: "Youtube",
     icon: Simple.IconYoutube,
   },
@@ -23,7 +23,7 @@ const socials = [
 export default () => {
   return (
     <div>
-      <h2 className="font-medium text-xl mb-3">Socials</h2>
+      <h2 className="font-medium text-xl mb-3">Contacto</h2>
       <ul className="flex items-center justify-center gap-3 p-1">
         {socials.map((social) => {
           return (

@@ -1,33 +1,28 @@
 import { IconButton } from "./ui";
 import { cn } from "./ui/utils.ts";
 import { Lucide } from "./icons";
+import { IconImage } from './icons/lucide';
 
 // TODO : update projects
 const projects = [
   {
-    title: "astrolinkt",
-    description: "Astro template",
-    icon: Lucide.IconImage,
-    url: "https://github.com/flamrdevs/astrolinkt",
+    title: "Platzi Avo eCommerce",
+    description: "Tomando ventaja de la API de Next.js, puedes revisar información y descubrir tu aguacate favorito, y sus detalles.",
+    icon: Lucide.IconShoppingCart,
+    url: "https://github.com/jesusmongedev/platzi-avo-app",
   },
   {
-    title: "astrovehnt",
-    description: "Astro template",
-    icon: Lucide.IconImage,
-    url: "https://github.com/flamrdevs/astrovehnt",
-  },
-  {
-    title: "astrobuckt",
-    description: "Astro template",
-    icon: Lucide.IconImage,
-    url: "https://github.com/flamrdevs/astrobuckt",
+    title: "Qik - Dashboard de métricas para tu negocio",
+    description: "Dashboard de métricas para tu negocio. Toma decisiones ejecutivas basadas en datos.",
+    icon: Lucide.IconDashboard,
+    url: "https://dashboard.qikstarts.com/login?demo=true",
   },
 ];
 
 export default () => {
   return (
     <div>
-      <h2 className="font-medium text-xl mb-3">Projects</h2>
+      <h2 className="font-medium text-xl mb-3">Proyectos</h2>
       <ul className="grid grid-cols-1 gap-3 p-1">
         {projects.map((project) => {
           return (

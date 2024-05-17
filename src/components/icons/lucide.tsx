@@ -80,3 +80,18 @@ export const IconUser = create(
     <circle cx="12" cy="7" r="4" />
   </>
 );
+
+export const IconShoppingCart = create(
+  <>
+    <circle cx="8" cy="21" r="1"/>
+    <circle cx="19" cy="21" r="1"/><path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"/>
+  </>
+)
+
+export const IconDashboard= create(
+  <>
+    <rect width="7" height="9" x="3" y="3" rx="1"/>
+    <rect width="7" height="5" x="14" y="3" rx="1"/><rect width="7" height="9" x="14" y="12" rx="1"/>
+    <rect width="7" height="5" x="3" y="16" rx="1"/>
+  </>
+)

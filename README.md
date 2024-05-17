@@ -9,7 +9,7 @@ Link in Bio Template using Astro, React & TailwindCSS
 - [Tailwind CSS](https://tailwindcss.com)
   - [coloradix](https://github.com/coloradix/coloradix)
 - [Radix UI](https://radix-ui.com)
-  - [klass](https://github.com/flamrdevs/klass)
+  - [klass](https://github.com/jmongedev/klass)
 - [Astro](https://astro.build)
 
 ## Quick Start
@@ -21,7 +21,7 @@ or
 Clone the repository
 
 ```bash
-git clone https://github.com/flamrdevs/astrolinkt.git
+git clone https://github.com/jmongedev/astrolinkt.git
 ```
 
 Install packages
@@ -68,7 +68,7 @@ Set light / Dark mode by the html data attibute
 
 ## Author
 
-astrolinkt developed by [flamrdevs](https://github.com/flamrdevs)
+astrolinkt developed by [jmongedev](https://github.com/jmongedev)
 
 ## License
 
