@@ -1,0 +1,57 @@
+---
+import MainLayout from "~/layouts/MainLayout.astro";
+
+import { Separator } from "~/components/ui";
+
+import FunnelTittle from "~/components/FunnelTittle.tsx";
+import Socials from "~/components/Socials.tsx";
+import DevelopedBy from "~/components/DevelopedBy.tsx";
+import EbookC from "~/components/Ebook.tsx";
+---
+
+<MainLayout
+  title="Jesús Andrés Monge Loor | ebook gratuito: Los Fundamentos de la creación personal"
+  description="Bienvenido a 'Los Fundamentos de la Creación Personal'. Este ebook es tu guía para entender y aplicar los tres principios esenciales para transformar tu vida: Espíritu, Mente y Cuerpo. Estos conceptos serán tu brújula en el viaje hacia la materialización de tus sueños y objetivos."
+>
+  <main class="container p-3 mx-auto max-w-screen-sm min-h-dvh">
+    <FunnelTittle client:idle />
+
+    <Separator className="my-8" />
+
+    <EbookC client:idle />
+
+    <div class="h-10"></div>
+
+
+    <div class="h-10"></div>
+
+    <Socials client:idle />
+
+    <Separator className="my-8" />
+
+    <DevelopedBy />
+  </main>
+</MainLayout>
+
+<style>
+  /* boxes pattern */
+  body {
+    z-index: 1;
+    position: relative;
+    background-color: rgb(var(--neutral-1));
+    background-image: linear-gradient(rgb(var(--neutral-2)) 1px, transparent 1px),
+      linear-gradient(to right, rgb(var(--neutral-2)) 1px, rgb(var(--neutral-1)) 1px);
+    background-size: 40px 40px;
+  }
+
+  body::after {
+    z-index: -1;
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(to bottom, transparent, rgb(var(--neutral-1)));
+  }
+</style>
