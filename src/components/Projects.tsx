@@ -1,6 +1,6 @@
 import { IconButton } from "./ui";
 import { cn } from "./ui/utils.ts";
-import { Lucide, Simple } from "./icons";
+import { Lucide } from "./icons";
 import { IconNextjs, IconTailwind } from './icons/simple';
 
 // TODO : update tags
@@ -8,12 +8,12 @@ const TAGS = {
   NEXT: {
     name: "Next.js",
     class: "bg-black text-white",
-    icon: Simple.IconNextjs,
+    icon: IconNextjs,
   },
   TAILWIND: {
     name: "Tailwind CSS",
     class: "bg-[#003159] text-white",
-    icon: Simple.IconTailwind,
+    icon: IconTailwind,
   },
 }
 
