@@ -52,7 +52,7 @@ export default () => {
                 "focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-neutral-7 focus-visible:ring-offset-neutral-1"
               )}
             >
-              <div className="grid grid-cols-2 items-stretch gap-5 pl-2">
+              <div className="grid md:grid-cols-2 items-stretch gap-5 pl-2">
                  <div className="w-full">
     <div className="relative flex flex-col items-center col-span-6 row-span-5 gap-8 transition duration-500 ease-in-out transform shadow-xl overflow-clip rounded-xl sm:rounded-xl md:group-hover:-translate-y-1 md:group-hover:shadow-2xl lg:border-gray-800 lg:hover:border-gray-700 lg:hover:bg-gray-800/50">
       <img alt="Recién llegado vs 5 años en Nueva Zelanda" className="object-cover object-top w-full h-56 transition duration-500 sm:h-full md:scale-110 md:group-hover:scale-105" loading="lazy" src={project.image} />
@@ -60,7 +60,7 @@ export default () => {
   </div>
                 <div className="">
                   <h3 className="transition duration-300 group-hover:translate-x-1 text-neutral-12 text-base">{project.title}</h3>
-                  <ul className="flex flex-row my-2 gap-x-2">
+                  <ul className="flex flex-wrap flex-row my-2 gap-x-2">
                     {project.tags.map((tag) => (
                       <li key={tag.name}>
                         <span
