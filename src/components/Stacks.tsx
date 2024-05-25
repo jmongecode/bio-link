@@ -58,7 +58,7 @@ export default () => {
   return (
     <div>
       <h2 className="font-medium text-xl mb-3">Tecnologías</h2>
-      <ul className="grid grid-cols-2 gap-3 p-1">
+      <ul className="grid sm:grid-cols-2 gap-3 p-1">
         {stacks.map((stack) => {
           return (
             <li
