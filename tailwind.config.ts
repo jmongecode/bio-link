@@ -16,6 +16,7 @@ const radix = coloradix({
 
 export default {
   content: ["./src/**/*.{ts,tsx,astro}"],
+  darkMode: 'class',
   theme: {
     colors: {
       transparent: "transparent",
