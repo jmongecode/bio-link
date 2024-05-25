@@ -1,0 +1,31 @@
+---
+import ExperienceItem from "./ExperienceItem.astro"
+const EXPERIENCIE = [
+  {
+    date: "Jun. 2022 - Actualidad",
+    title: "Desarrollador Web",
+    company: "NextGen S.A.",
+    description:
+      "Como profesional en Nextgen, me especializo en la optimización y resolución de problemas de rendimiento, así como en el mantenimiento y desarrollo de proyectos. Contribuyo activamente al ciclo de vida del desarrollo de software utilizando herramientas como React, Next.js, Node.js, MUI, SQL, GraphQL, Adonis, AWS, Docker y Vercel, entre otras.",
+    link: "https://www.nextgen.ec/",
+  },
+  {
+    date: "Set. 2021 - May. 2024",
+    title: "Fullstack Developer",
+    company: "Qik",
+    description:
+    "En el sector de food tech, impulsé a PYMES y grandes empresas con un aumento de más de 200 reseñas positivas en Google Reviews y un incremento en el promedio de calificación. Desarrollé un panel de estadísticas empresariales para informar decisiones clave, utilizando herramientas como React, TypeScript, Firebase, Zod, React Hook Forms y shadcn/ui (Radix UI and Tailwind CSS).",
+    link: "https://qikstarts.com/",
+  },
+]
+---
+
+<ol class="relative mt-16">
+  {
+    EXPERIENCIE.map((experiencie) => (
+      <li class="">
+        <ExperienceItem {...experiencie} />
+      </li>
+    ))
+  }
+</ol>

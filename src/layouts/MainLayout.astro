@@ -1,5 +1,6 @@
 ---
 import HTML from "~/components/HTML.astro";
+import Header from "~/components/Header.astro";
 
 type Props = {
   title?: string;
@@ -11,6 +12,7 @@ const { title, description } = Astro.props;
 
 <HTML {title} {description}>
   <Fragment slot="body">
+    <Header />
     <slot />
   </Fragment>
 </HTML>

@@ -30,9 +30,15 @@ const stacks = [
   },
   {
     name: "Tailwind CSS",
-    category: "Browser",
+    category: "Desarrollo",
     icon: Simple.IconTailwind,
     url: "https://tailwindcss.com",
+  },
+  {
+    name: "TypeScript",
+    category: "Desarrollo",
+    icon: Simple.IconTypescript,
+    url: "https://typescriptlang.org",
   },
   {
     name: "Figma",
@@ -45,12 +51,6 @@ const stacks = [
     category: "Productividad",
     icon: Simple.IconNotion,
     url: "https://www.notion.so",
-  },
-  {
-    name: "TypeScript",
-    category: "Desarrollo",
-    icon: Simple.IconTypescript,
-    url: "https://typescriptlang.org",
   },
 ];
 
