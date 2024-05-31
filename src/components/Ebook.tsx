@@ -26,14 +26,22 @@ function Ebook() {
 
   return (
 <section className="">
-  <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
+  <div className="py-4 px-4 mx-auto max-w-screen-xl lg:py-8 lg:px-6">
       <div className="mx-auto max-w-screen-md sm:text-center">
-
-            <div className="mb-8">
-                <img src="/ebook.png" alt="Ebook" className="p-4 md:p-0 mx-auto md:h-96" />
-                {/* <p className="mx-auto mb-8 max-w-2xl font-light text-gray-500 md:mb-12 sm:text-xl dark:text-gray-400">Bienvenido a 'Los Fundamentos de la Creación Personal'. Este ebook es tu guía para entender y aplicar los tres principios esenciales para transformar tu vida: Espíritu, Mente y Cuerpo.</p> */}
+      <div className="w-full relative">
             </div>
-          <p className="mx-auto mb-8 max-w-2xl font-light text-gray-500 md:mb-12 sm:text-xl dark:text-gray-400">Ingresa a nuestro Canal de Telegram para Descargar el Ebook <span className="font-bold text-primary" >"Los Fundamentos de la Creación Personal"</span> y comienza a transformar tu vida hoy mismo.</p>
+
+            <div className="w-full relative">
+      <div className="grid grid-cols-1 gap-8">
+        <picture className="w-full relative mx-auto h-auto overflow-hidden rounded-lg " >
+                <source srcSet="/ebook.webp" type="image/webp"  />
+                <source srcSet="/ebook.jpg" type="image/jpeg"  />
+                {/* <p className="mx-auto mb-8 max-w-2xl font-light text-gray-500 md:mb-12 sm:text-xl dark:text-gray-400">Bienvenido a 'Los Fundamentos de la Creación Personal'. Este ebook es tu guía para entender y aplicar los tres principios esenciales para transformar tu vida: Espíritu, Mente y Cuerpo.</p> */}
+        <img src="/ebook.jpg" alt="Ebook" className="w-full h-auto relative z-0 rounded-lg transition-all duration-300 hover:scale-110"/>
+        </picture>
+      </div>
+      </div>
+          <p className="mx-auto my-8 max-w-2xl font-light text-gray-500 md:mb-12 sm:text-xl dark:text-gray-400">Ingresa a nuestro Canal de Telegram para Descargar el Ebook <span className="font-bold text-primary" >"Los Fundamentos de la Creación Personal"</span> y comienza a transformar tu vida hoy mismo.</p>
           {/* <form onSubmit={handleSubmit} className=""> */}
               {/* <div className="flex-col gap-2 items-center mx-auto mb-3 space-y-4 max-w-screen-sm sm:flex sm:space-y-0">
                   <div className=" relative w-full">
