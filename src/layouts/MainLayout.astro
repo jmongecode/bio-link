@@ -5,14 +5,15 @@ import Header from "~/components/Header.astro";
 type Props = {
   title?: string;
   description?: string;
+  showHeader?: boolean;
 };
 
-const { title, description } = Astro.props;
+const { title, description, showHeader } = Astro.props;
 ---
 
 <HTML {title} {description}>
   <Fragment slot="body">
-    <Header />
+    {showHeader && <Header />}
     <slot />
   </Fragment>
 </HTML>
